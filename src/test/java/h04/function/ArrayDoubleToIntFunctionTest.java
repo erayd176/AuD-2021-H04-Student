@@ -93,6 +93,9 @@ public class ArrayDoubleToIntFunctionTest {
             for (int i = 0; i < expectedValues.length; i++)
                 assertEquals(expectedValues[i], apply.invoke(instance, i * 0.1));
         }
+
+
+
     }
 }
 
